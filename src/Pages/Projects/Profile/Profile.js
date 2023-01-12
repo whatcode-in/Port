@@ -12,7 +12,7 @@ const Profile = () => {
       </div>
       <div className="flex">
         <div>
-          <h1 className=" relative text-[5.5rem] md:text-[13.7rem] lg:text-[20.5rem] font-bold bg-gradient-to-br from-[#FE420B]  to-[#573EF3] text-transparent bg-clip-text z-10">
+          <h1 className=" relative text-[5.5rem] md:text-[13.7rem] lg:text-[20.5rem] font-bold bg-gradient-to-br from-[#FE420B] to-[#573EF3] text-transparent bg-clip-text z-10">
             Omkar
           </h1>
         </div>
