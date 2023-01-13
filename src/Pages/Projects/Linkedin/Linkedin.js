@@ -19,7 +19,7 @@ const Linkedin = () => {
       </h1>
       <div className="border-4 border-[#0A66C2] text-center rounded-3xl bg-[#1D1D1F] md:h-[469px] h-[211px] lg:h-[706px]">
         <div>
-          <p className="text-[#FFFFFF99] md:text-lg text-[9px] lg:text-3xl my-10">
+          <p className="text-[#FFFFFF99] md:text-lg text-[9px] lg:text-3xl mt-10">
             Witness the <span className="text-white">revamped version</span> of
             LinkedIn, which not only <br />
             incorporates the best features with a{" "}
@@ -32,19 +32,19 @@ const Linkedin = () => {
             Know more {`>`}
           </a>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mt-10">
           <img
-            className="relative w-[50%] lg:w-[75%] top-7 right-[9rem] md:top-[4.8rem] md:right-[9rem] lg:top-7 lg:right-[9rem] hover:z-20"
+            className="relative w-[50%] lg:w-[75%] -top-5 right-[5rem] md:top-[4.8rem] md:right-[9rem] lg:top-7 lg:right-[9rem] hover:z-20"
             src={img2}
             alt=""
           />
           <img
-            className="w-[50%] lg:w-[75%] relative -top-[29.9rem] md:-top-[9.6rem] lg:-top-[29.9rem]  z-10"
+            className="w-[50%] lg:w-[75%] relative -top-[7.2rem] md:-top-[9.6rem] lg:-top-[29.9rem]  z-10"
             src={img1}
             alt=""
           />
           <img
-            className="w-[50%] lg:w-[75%] relative -top-[60.1rem] left-[9rem] md:-top-[23.4rem] md:left-[9rem] lg:-top-[60.1rem] lg:left-[9rem] hover:z-20 "
+            className="w-[50%] lg:w-[75%] relative -top-[12.9rem] left-[5rem] md:-top-[23.4rem] md:left-[9rem] lg:-top-[60.1rem] lg:left-[9rem] hover:z-20 "
             src={img3}
             alt=""
           />

@@ -6,7 +6,7 @@ import { CgCopyright } from "react-icons/cg";
 
 const Footer = () => {
   return (
-    <div className="mt-20">
+    <div id="contact" className="mt-20">
       <h1 className="lg:w-[56rem] md:w-[36rem] mx-auto text-4xl md:text-6xl lg:text-8xl text-center text-[#FFFFFF99] font-semibold">
         Let’s work <span className="text-white">together</span> <br /> on your
         next project

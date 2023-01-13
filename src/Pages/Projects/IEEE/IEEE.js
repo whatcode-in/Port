@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 import tab from "../../../Assets/ieee/tab.png";
 
 const IEEE = () => {

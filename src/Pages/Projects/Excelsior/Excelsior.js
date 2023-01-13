@@ -15,7 +15,7 @@ const Excelsior = () => {
           <img className=" relative top-3 rounded-3xl" src={phone} alt="" />
         </div>
         <div className=" flex-1">
-          <p className="text-[#FFFFFF99] text-2xl pt-[22%] px-16">
+          <p className="text-[#FFFFFF99] lg:text-2xl md:text-[15px] text-[9px] pt-[22%] lg:px-16 px-2">
             Listen to the advice from the best <br />
             in {""}
             <span className="text-white">
