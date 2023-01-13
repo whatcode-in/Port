@@ -26,6 +26,7 @@ const Statistics = () => {
             </p>
           </div>
           <div className="w-[93%] p-10 border-4 border-[#0587F7] rounded-3xl text-center">
+            <h2 className="text-black text-2xl font-semibold">Added</h2>
             <h1 className="lg:text-8xl md:text-6xl text-4xl font-bold text-[#573EF3]">
               30+
             </h1>
@@ -34,6 +35,7 @@ const Statistics = () => {
             </p>
           </div>
           <div className="w-[93%] p-10 border-4 border-[#0587F7] rounded-3xl text-center">
+            <h2 className="text-black text-2xl font-semibold">Connected</h2>
             <h1 className="lg:text-8xl md:text-6xl text-4xl font-bold text-[#573EF3]">
               15+
             </h1>

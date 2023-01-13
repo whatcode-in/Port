@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../../../Assets/linkedin/image2.png";
 import img2 from "../../../Assets/linkedin/image3.png";
 import img3 from "../../../Assets/linkedin/image1.png";
+import { Link } from "react-router-dom";
 
 const Linkedin = () => {
   return (
@@ -25,12 +26,12 @@ const Linkedin = () => {
             incorporates the best features with a{" "}
             <span className=" text-white">greater allure</span>.{" "}
           </p>
-          <a
+          <Link
+            to={"/projects/linkedIn"}
             className="text-[#007AF6] md:text-lg text-sm lg:text-3xl font-medium"
-            href=""
           >
             Know more {`>`}
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col items-center mt-10">
           <img

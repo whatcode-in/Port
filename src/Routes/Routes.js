@@ -1,7 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import AboutPage from "../Pages/About/AboutPage";
+import ExcelsiorPage from "../Pages/ExcelsiorPage/ExcelsiorPage";
 import IeeePage from "../Pages/IeeePage/IeeePage";
+import LinkedinPage from "../Pages/LinkedinPage/LinkedinPage";
 import Projects from "../Pages/Projects/Projects";
 
 export const router = createBrowserRouter([
@@ -24,6 +26,14 @@ export const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutPage></AboutPage>,
+      },
+      {
+        path: "/projects/excelsior",
+        element: <ExcelsiorPage></ExcelsiorPage>,
+      },
+      {
+        path: "/projects/linkedIn",
+        element: <LinkedinPage></LinkedinPage>,
       },
     ],
   },
