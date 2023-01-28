@@ -1,0 +1,15 @@
+.border-wrapper {
+    width: auto;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    padding: 3px;
+    border-radius: 50px;
+    display: flex;
+  }
+
+.ieee-points-card{
+    background:  #000000;
+    color: white;
+    border-radius: 50px;
+}

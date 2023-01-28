@@ -2,10 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 import tab from "../../../Assets/ieee/tab.png";
+import reveal from "../../../ScrollAnimation";
+
 
 const IEEE = () => {
+  window.addEventListener('scroll',reveal)
+  reveal()
+
   return (
-    <div className="w-[85%] mx-auto">
+    <div className="w-[85%] mx-auto reveal">
       <h3 className="text-[#FFFFFF99] text-sm md:text-2xl lg:text-4xl">
         The Personal Project
       </h3>

@@ -1,0 +1,22 @@
+.new-revamp-main-heading{
+    align-items: center;
+}
+
+.new-revamp-heading{
+    background: linear-gradient(180deg, #5AE9FD 0%, #0A66C2 31.56%, #8B78FF 65.94%, #5AE9FD 100%);
+    background-clip: text;
+    text-align: center;
+}
+
+.eyes-image-container{
+    width: 15%;
+}
+
+.eyes-image-container img{
+    width: 100%;
+}
+
+.new-rewamp-description{
+    align-self: center;
+    text-align: center;
+}

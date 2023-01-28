@@ -1,0 +1,9 @@
+.details-subtitle-gradient{
+    background: linear-gradient(90deg, #FF0E0E 25%, #573EF3 51.3%, #FF4AF8 100%);
+    background-clip: text;
+}
+
+.details-subtitle-gradient-1 {
+    background: linear-gradient(90deg, #FF0E0E 13%, #573EF3 51.3%, #FF4AF8 100%);
+    background-clip: text;
+}

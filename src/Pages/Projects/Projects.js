@@ -5,6 +5,8 @@ import Linkedin from "./Linkedin/Linkedin";
 import Profile from "./Profile/Profile";
 
 const Projects = () => {
+
+
   return (
     <div>
       <Profile></Profile>
