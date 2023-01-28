@@ -7,12 +7,9 @@ import user3 from "../../../Assets/excelsior/user6.png";
 import user4 from "../../../Assets/excelsior/user3.png";
 import user5 from "../../../Assets/excelsior/user4.png";
 import user6 from "../../../Assets/excelsior/user5.png";
-import reveal from "../../../ScrollAnimation"
 
 const Excelsior = () => {
 
-  window.addEventListener('scroll',reveal)
-  reveal()
 
 
 
