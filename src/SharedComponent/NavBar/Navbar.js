@@ -5,6 +5,8 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [color, setColor] = useState(false);
+  const [showProjectNavigation,setShowProjectNavigation] = useState()
+
   const changeColor = () => {
     if (window.scrollY >= 90) {
       setColor(true);
@@ -12,6 +14,12 @@ const Navbar = () => {
       setColor(false);
     }
   };
+
+  function toggleShowProjectNavigation(value){
+    setShowProjectNavigation(value)
+  }
+
+
 
   window.addEventListener("scroll", changeColor);
   return (
@@ -30,9 +38,33 @@ const Navbar = () => {
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 font-bold">
-            <li>
-              <NavLink to={"/projects"}>Projects</NavLink>
+
+            <li 
+                onMouseEnter={() => toggleShowProjectNavigation(true)}
+                onMouseLeave={() => toggleShowProjectNavigation(false)}
+            >
+
+
+              <div className="flex-col">
+
+                
+                <NavLink to={"/projects"}>Projects</NavLink>
+
+                {showProjectNavigation &&
+                <>
+                <NavLink to={"/projects/IEEE-Publication"}>IEEE Publication</NavLink>
+                <NavLink to={"/projects/excelsior"}>Excelsior</NavLink>
+                <NavLink to={"/projects/linkedIn"}>Linkedin</NavLink>
+                </>
+              }
+
+              </div>
+
             </li>
+
+
+              
+
             <li>
               <NavLink to={"/about"}>About</NavLink>
             </li>
