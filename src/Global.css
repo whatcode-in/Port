@@ -1,0 +1,34 @@
+.standard-heading-line-heights{
+    line-height: 120px;
+}
+
+@media (max-width: 1536px) { 
+    .standard-heading-line-heights{
+        line-height: 120px;
+    }
+ }
+
+ @media (max-width: 1280px) { 
+    .standard-heading-line-heights{
+        line-height: 110px;
+    }
+ }
+
+ @media (max-width: 1024px) { 
+    .standard-heading-line-heights{
+        line-height: 70px;
+    }
+ }
+
+
+@media (max-width: 768px) { 
+    .standard-heading-line-heights{
+        line-height: 40px;
+    }
+ }
+
+@media (max-width: 640px) { 
+    .standard-heading-line-heights{
+        line-height: 40px;
+    }
+ }

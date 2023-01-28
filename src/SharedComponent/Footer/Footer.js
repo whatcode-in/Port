@@ -43,10 +43,12 @@ const Footer = () => {
         </a>
       </div>
       <div>
-        <p className="text-[#007AF6] text-lg lg:text-2xl text-center font-bold flex justify-center items-center">
+
+        <p className="text-[#000000] text-lg lg:text-2xl text-center font-bold flex justify-center items-center" style={{backgroundColor: "#D9D9D9",height: "135px"}}>
           Copyright 2022 <CgCopyright className="text-sm mx-3"></CgCopyright>{" "}
           Omkar Kapade.
         </p>
+
       </div>
     </div>
   );

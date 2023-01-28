@@ -1,17 +1,21 @@
 import React from "react";
 import noice from "../../../Assets/linkedin/brooklyn99-noice.png";
 import arrow from "../../../Assets/profile/upArrow.png";
+import "../../../Global.css"
 
 const LinkedinBanner = () => {
   return (
     <div className="">
       <div className=" flex items-center mt-36 px-20 gap-5">
         <div className="flex-1">
-          <h1 className=" lg:text-[9rem] md:text-[5rem] text-[2rem] text-white">
-            <span className="text-blue-600">LinkedIn</span>
-            <br /> Redesign
+
+          <h1 className="lg:text-[9rem] md:text-[5rem] text-[2rem] text-white standard-heading-line-heights standard-heading-line-heights" style={{fontWeight: "700"}}>
+            <div className="text-blue-600">LinkedIn</div>
+             <div className="mt-0">Redesign</div>
           </h1>
+
         </div>
+        
         <div>
           <img src={noice} alt="" />
         </div>

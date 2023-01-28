@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import "./Navbar.css";
+import dropDownIcon from "../../Assets/dropdown_icon.png"
 
 const Navbar = () => {
   const [color, setColor] = useState(false);
-  const [showProjectNavigation,setShowProjectNavigation] = useState()
 
   const changeColor = () => {
     if (window.scrollY >= 90) {
@@ -14,11 +14,6 @@ const Navbar = () => {
       setColor(false);
     }
   };
-
-  function toggleShowProjectNavigation(value){
-    setShowProjectNavigation(value)
-  }
-
 
 
   window.addEventListener("scroll", changeColor);
@@ -32,35 +27,38 @@ const Navbar = () => {
         }
       >
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-[40px] font-medium">
+          <NavLink to={"/"} className="btn btn-ghost normal-case text-[40px] font-medium">
             O-K
-          </a>
+          </NavLink>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 font-bold">
 
-            <li 
-                onMouseEnter={() => toggleShowProjectNavigation(true)}
-                onMouseLeave={() => toggleShowProjectNavigation(false)}
-            >
+            <li><NavLink to={"/projects"}>Projects   <div className="dropdown-icon-container"><img src={dropDownIcon}/></div></NavLink>
+          
+            
 
-
-              <div className="flex-col">
-
-                
-                <NavLink to={"/projects"}>Projects</NavLink>
-
-                {showProjectNavigation &&
-                <>
-                <NavLink to={"/projects/IEEE-Publication"}>IEEE Publication</NavLink>
-                <NavLink to={"/projects/excelsior"}>Excelsior</NavLink>
-                <NavLink to={"/projects/linkedIn"}>Linkedin</NavLink>
-                </>
-              }
-
-              </div>
-
+            <ul>
+              <li><NavLink to={"/projects/IEEE-Publication"}>IEEE Publication</NavLink></li>
+              <li><NavLink to={"/projects/excelsior"}>Excelsior</NavLink></li>
+              <li><NavLink to={"/projects/linkedIn"}>Linkedin</NavLink></li>
+            </ul>
+            
             </li>
+
+          
+            {/* {showProjectNavigation && 
+          <>
+            <li><NavLink to={"/projects/IEEE-Publication"} >IEEE Publication</NavLink></li>
+            <li><NavLink to={"/projects/excelsior"} >Excelsior</NavLink></li>
+             <li><NavLink to={"/projects/linkedIn"} >Linkedin</NavLink></li>
+          </>
+        }
+      */}
+
+      
+           
+      
 
 
               
@@ -82,6 +80,8 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+
+     
     </div>
   );
 };
