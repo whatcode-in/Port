@@ -6,3 +6,24 @@
   backdrop-filter: blur(6.9px);
   -webkit-backdrop-filter: blur(6.9px);
 }
+
+#projects-dropdown{
+  /* background: orange; */
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}
+
+.dropdown-icon-container{
+  /* margin-left: -10%; */
+}
+
+.dropdown-icon-container img{
+  width: 17px
+}
+

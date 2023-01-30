@@ -3,10 +3,16 @@ import img1 from "../../../Assets/linkedin/image2.png";
 import img2 from "../../../Assets/linkedin/image3.png";
 import img3 from "../../../Assets/linkedin/image1.png";
 import { Link } from "react-router-dom";
+import reveal from "../../../ScrollAnimation"
 
 const Linkedin = () => {
+
+  window.addEventListener('scroll',reveal)
+  reveal()
+
+
   return (
-    <div className="w-[85%] mx-auto">
+    <div className="w-[85%] mx-auto reveal">
       <h3 className="text-[#FFFFFF99] text-sm md:text-2xl lg:text-4xl">
         The Passion Project
       </h3>

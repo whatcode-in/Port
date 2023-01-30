@@ -9,8 +9,12 @@ import user5 from "../../../Assets/excelsior/user4.png";
 import user6 from "../../../Assets/excelsior/user5.png";
 
 const Excelsior = () => {
+
+
+
+
   return (
-    <div className="w-[85%] mx-auto my-20 overflow-hidden z-40">
+    <div className="w-[85%] mx-auto my-20 overflow-hidden z-40 reveal">
       <h3 className="text-[#FFFFFF99] text-sm md:text-2xl lg:text-4xl">
         The Personal Project
       </h3>

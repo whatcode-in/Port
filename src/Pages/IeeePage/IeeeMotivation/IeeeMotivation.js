@@ -1,10 +1,10 @@
 import React from "react";
-import tab from "../../../Assets/ieee/fullTab.png";
+import tab from "../../../Assets/ieee/ipad_ieee.png";
 
 const IeeeMotivation = () => {
   return (
     <div className="bg-white">
-      <h1 className="lg:text-[80px] md:text-[72px] text-[34px] font-bold bg-gradient-to-br from-[#11953B] to-[#000000] text-transparent bg-clip-text py-20 text-center">
+      <h1 className="lg:text-[80px] md:text-[72px] text-[34px] font-bold bg-gradient-to-r from-[#11953B] to-[#000000] text-transparent bg-clip-text py-20 text-center">
         Motivation, Objective <br />
         and Outcome
       </h1>

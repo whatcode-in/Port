@@ -1,0 +1,110 @@
+.details-subtitle-gradient{
+    background: linear-gradient(90deg, #FF0E0E 25%, #573EF3 51.3%, #FF4AF8 100%);
+    background-clip: text;
+}
+
+.details-subtitle-gradient-1 {
+    background: linear-gradient(90deg, #FF0E0E 13%, #573EF3 51.3%, #FF4AF8 100%);
+    background-clip: text;
+}
+
+
+.motivation-objective-outcome-container{
+    border: 1px solid red;
+}
+
+.motivation-objective-div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;  
+    
+}
+
+.motivation-div,.objective-div,.outcomes-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* .motivation-div div,.objective-div div,.outcomes-div div{
+    display: flex;
+} */
+
+.motivation-div div img,.objective-div div img,.outcomes-div div img {
+    /* border: 1px solid green; */
+    width: 13%;
+    margin-left: 0.5rem;
+}
+
+.motivation-content,.objective-content,.outcomes-content{
+    white-space: pre;
+}
+
+.outcomes-div div img{
+    height: 80%;
+}
+
+
+
+
+.phone-image{
+    border: 2px solid red; 
+}
+
+
+ @media (max-width: 650px) { 
+    .phone{
+        display: flex;
+        align-items: center;
+        
+    }
+    .phone img{
+        width: 100%;
+    }
+   
+ }
+
+/* @media (max-width: 1536px) { 
+    .phone-image{
+        border: 2px solid red; 
+     
+    }
+   
+ }
+
+ @media (max-width: 1280px) { 
+    .phone-image{
+        border: 2px solid red; 
+        
+    }
+ }
+
+
+@media (max-width: 700px) { 
+    .phone-image{
+        border: 2px solid red; 
+        width: 40%;
+    }
+ }
+
+@media (max-width: 640px) { 
+    .phone-image{
+        border: 2px solid red; 
+        width: 45%;
+    }
+ }
+
+ @media (max-width: 500px){
+    .phone-image{
+        border: 2px solid red; 
+        width: 50%;
+    }
+ }
+ @media (max-width: 450px){
+    .phone-image{
+        border: 2px solid red; 
+        width: 55%;
+    }
+ } */
+
+

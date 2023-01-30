@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import "./Navbar.css";
+import dropDownIcon from "../../Assets/dropdown_icon.png"
 
 const Navbar = () => {
   const [color, setColor] = useState(false);
+
   const changeColor = () => {
     if (window.scrollY >= 90) {
       setColor(true);
@@ -12,6 +14,7 @@ const Navbar = () => {
       setColor(false);
     }
   };
+
 
   window.addEventListener("scroll", changeColor);
   return (
@@ -24,15 +27,42 @@ const Navbar = () => {
         }
       >
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-[40px] font-medium">
+          <NavLink to={"/"} className="btn btn-ghost normal-case text-[40px] font-medium">
             O-K
-          </a>
+          </NavLink>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 font-bold">
-            <li>
-              <NavLink to={"/projects"}>Projects</NavLink>
+
+            <li><NavLink to={"/projects"}>Projects   <div className="dropdown-icon-container"><img src={dropDownIcon}/></div></NavLink>
+          
+            
+
+            <ul>
+            <li><NavLink to={"/projects/linkedIn"}>Linkedin Redesign</NavLink></li>
+            <li><NavLink to={"/projects/excelsior"}>Podcast</NavLink></li>
+              <li><NavLink to={"/projects/IEEE-Publication"}>IEEE Publication</NavLink></li>
+            </ul>
+            
             </li>
+
+          
+            {/* {showProjectNavigation && 
+          <>
+            <li><NavLink to={"/projects/IEEE-Publication"} >IEEE Publication</NavLink></li>
+            <li><NavLink to={"/projects/excelsior"} >Excelsior</NavLink></li>
+             <li><NavLink to={"/projects/linkedIn"} >Linkedin</NavLink></li>
+          </>
+        }
+      */}
+
+      
+           
+      
+
+
+              
+
             <li>
               <NavLink to={"/about"}>About</NavLink>
             </li>
@@ -50,6 +80,8 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+
+     
     </div>
   );
 };

@@ -1,0 +1,97 @@
+.new-revamp-main-heading{
+    align-items: center;
+}
+
+.new-revamp-heading{
+    background: linear-gradient(180deg, #5AE9FD 0%, #0A66C2 31.56%, #8B78FF 65.94%, #5AE9FD 100%);
+    background-clip: text;
+    text-align: center;
+}
+
+.eyes-image-container{
+    width: 15%;
+}
+
+.eyes-image-container img{
+    width: 100%;
+}
+
+.new-rewamp-description{
+    align-self: center;
+    text-align: center;
+}
+
+.revamp-alphabet-container{
+    /* border: 2px solid rebeccapurple; */
+}
+
+.alphabet-ellipse{
+    width: 5%;
+    height: auto;
+    background: #FFFFFF;
+    border: 4px solid #007AF6;
+    box-sizing: border-box;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.new-rewamp-description{
+    margin-left: 0.2rem;
+    justify-self: flex-start;
+}
+
+.new-rewamp-block-container{
+    color: rgba(255, 255, 255, 0.7);
+    /* border: 2px solid red; */
+}
+
+.new-rewamp-image-container{
+    /* border: 2px solid red; */
+    width: 60%;
+}
+
+.new-rewamp-image-container img{
+    width: 100%;
+}
+
+.new-rewamp-block-text-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.new-rewamp-block-text-container :nth-child(1){
+    margin-top: 10%;
+
+}
+
+.new-rewamp-block-text-container :nth-child(2){
+    margin-top: 30%;
+}
+
+
+.new-rewamp-image-container-1{
+    width: 70%;
+}
+
+.new-rewamp-block-container-1 img{
+    width: 100%;
+}
+#block-2{
+    margin-top: 10%;
+ 
+}
+
+#block-3-text{
+}
+
+.new-rewamp-description-3{
+    margin-left: 3%;
+}

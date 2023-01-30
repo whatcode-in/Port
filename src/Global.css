@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+*{
+    font-family: 'SF Pro Display',sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.standard-heading-line-heights{
+    line-height: 120px;
+}
+
+.sports-line-height,.art-line-height{
+    line-height: 40px;
+}
+
+@media (max-width: 1536px) { 
+    .standard-heading-line-heights{
+        line-height: 120px;
+    }
+    .sports-line-height,.art-line-height{
+        line-height: 40px;
+    }
+ }
+
+ @media (max-width: 1280px) { 
+    .standard-heading-line-heights{
+        line-height: 110px;
+    }
+    .sports-line-height,.art-line-height{
+        line-height: 33px;
+    }
+ }
+
+ @media (max-width: 1024px) { 
+    .standard-heading-line-heights{
+        line-height: 70px;
+    }.sports-line-height,.art-line-height{
+        line-height: 23px;
+    }
+ }
+
+
+@media (max-width: 768px) { 
+    .standard-heading-line-heights{
+        line-height: 40px;
+    }.sports-line-height,.art-line-height{
+        line-height: 18px;
+    }
+ }
+
+@media (max-width: 640px) { 
+    .standard-heading-line-heights{
+        line-height: 40px;
+    }.sports-line-height,.art-line-height{
+        line-height: 18px;
+    }
+ }

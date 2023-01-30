@@ -1,0 +1,21 @@
+
+
+.stats-from-spotify-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stats-from-spotify-images-container{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    gap: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.stats-from-spotify-images-container div{
+    /* border: 2px solid red; */
+}
+
