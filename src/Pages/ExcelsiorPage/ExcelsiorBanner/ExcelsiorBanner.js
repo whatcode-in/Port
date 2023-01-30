@@ -1,5 +1,5 @@
 import React from "react";
-import ohmygod from "../../../Assets/excelsior/ohmygod.png";
+import ohmygod from "../../../Assets/gifs/ohyeah.gif";
 import "../../../Global.css"
 
 const ExcelsiorBanner = () => {
@@ -13,7 +13,7 @@ const ExcelsiorBanner = () => {
         </h1>
       </div>
       <div>
-        <img src={ohmygod} alt="" />
+        <img className="rounded-3xl " src={ohmygod} alt="" />
       </div>
     </div>
   );

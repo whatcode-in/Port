@@ -2,7 +2,7 @@ import React from "react";
 import arrow from "../../../Assets/profile/upArrow.png";
 import damon from "../../../Assets/ieee/damon-salvatore-reading-book.png";
 import "../../../Global.css"
-import ieeeImage from "../../../Assets/ieee/ieee_publication.gif"
+import ieeeImage from "../../../Assets/gifs/reading.gif"
 
 const IeeeBanner = () => {
   return (
@@ -19,7 +19,7 @@ const IeeeBanner = () => {
         <h1 className="text-white standard-heading-line-heights" style={{fontWeight: "700"}}>Publication</h1>
       </div>
       <div className="flex-1">
-        <img className="w-full" src={ieeeImage} alt="" autoPlay />
+        <img className="w-full rounded-3xl" src={ieeeImage} alt="" autoPlay />
       </div>
     </div>
   );

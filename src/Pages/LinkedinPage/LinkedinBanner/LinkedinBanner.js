@@ -1,12 +1,12 @@
 import React from "react";
-import noice from "../../../Assets/linkedin/brooklyn99-noice.png";
+import noice from "../../../Assets/gifs/noics.gif";
 import arrow from "../../../Assets/profile/upArrow.png";
 import "../../../Global.css"
 
 const LinkedinBanner = () => {
   return (
     <div className="">
-      <div className=" flex items-center mt-36 px-20 gap-5">
+      <div className="flex items-center mt-36 px-20 gap-5">
         <div className="flex-1">
 
           <h1 className="lg:text-[9rem] md:text-[5rem] text-[2rem] text-white standard-heading-line-heights standard-heading-line-heights" style={{fontWeight: "700"}}>
@@ -16,8 +16,8 @@ const LinkedinBanner = () => {
 
         </div>
         
-        <div>
-          <img src={noice} alt="" />
+        <div className="">
+          <img className="rounded-3xl" src={noice} alt="" />
         </div>
       </div>
       <div className=" pl-24">
