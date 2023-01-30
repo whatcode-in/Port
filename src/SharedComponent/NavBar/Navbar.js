@@ -39,9 +39,9 @@ const Navbar = () => {
             
 
             <ul>
+            <li><NavLink to={"/projects/linkedIn"}>Linkedin Redesign</NavLink></li>
+            <li><NavLink to={"/projects/excelsior"}>Podcast</NavLink></li>
               <li><NavLink to={"/projects/IEEE-Publication"}>IEEE Publication</NavLink></li>
-              <li><NavLink to={"/projects/excelsior"}>Excelsior</NavLink></li>
-              <li><NavLink to={"/projects/linkedIn"}>Linkedin</NavLink></li>
             </ul>
             
             </li>

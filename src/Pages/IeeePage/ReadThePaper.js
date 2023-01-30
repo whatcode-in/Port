@@ -16,7 +16,7 @@ const ReadThePaper = () => {
         >
             Read the<br></br>
             paper <a href="https://drive.google.com/drive/folders/1R2TrHbiVv6pWvbQVcjH3_2olpB0Dq6Yy" style={{textDecoration: "underline #FF4AF8"}}>
-                <span className="bg-gradient-to-br from-[#FFFFFF] to-[#FF4AF8] text-transparent bg-clip-text">here.</span>
+                <span className="bg-gradient-to-b from-[#FFFFFF] to-[#FF4AF8] text-transparent bg-clip-text">here.</span>
             </a>
         </div>
     )

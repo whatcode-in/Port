@@ -2,7 +2,7 @@
     width: auto;
     padding: 1rem;
     position: relative;
-    background: linear-gradient(to right, red, purple);
+    background: linear-gradient(to bottom, red, purple);
     padding: 3px;
     border-radius: 50px;
     display: flex;

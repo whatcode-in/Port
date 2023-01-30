@@ -4,7 +4,7 @@ import aboutMe from "../../../Assets/about/AboutME.png";
 
 const AboutMe = () => {
   return (
-    <div className="py-28">
+    <div className="py-28 bg-black">
       <div className="flex items-center lg:px-20 gap-10">
         <div className="flex-1">
           <img src={aboutMe} alt="" />

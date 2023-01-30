@@ -24,7 +24,7 @@ const CareerHilights = () => {
                   Web3 & Product EIR
                 </span>
                 <span className="lg:text-4xl font-bold md:text-2xl">
-                  Sep 2022 - Present Job
+                  Sep 2022 - Present &#10625; Job
                 </span>
                 <ul className="mt-4 text-gray-700 text-3xl list-disc">
                   <li>Created user journeys for a plethora of brands</li>
@@ -52,7 +52,7 @@ const CareerHilights = () => {
                   Product Marketing & Design Specialist
                 </span>
                 <span className="lg:text-4xl font-bold md:text-2xl">
-                  Apr 2022 - Sep 2022 Job
+                  Apr 2022 - Sep 2022 &#10625; Job
                 </span>
                 <ul className="mt-4 text-gray-700 text-3xl list-disc">
                   <li>Marketed the flagship product 'ItsMyne'.</li>
@@ -83,7 +83,7 @@ const CareerHilights = () => {
                   Associate Product Manager - Design Enginnering
                 </span>
                 <span className="lg:text-4xl font-bold md:text-2xl">
-                  Jul 2021 - Apr 2022 Job
+                  Jul 2021 - Apr 2022 &#10625; Job
                 </span>
                 <ul className="mt-4 text-gray-700 text-3xl list-disc">
                   <li>Visit industrial sites and list Areas of Improvement.</li>

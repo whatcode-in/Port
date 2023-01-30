@@ -3,6 +3,7 @@ import Excelsior from "./Excelsior/Excelsior";
 import IEEE from "./IEEE/IEEE";
 import Linkedin from "./Linkedin/Linkedin";
 import Profile from "./Profile/Profile";
+import NewExcelsior from "./Excelsior/NewExcelsior";
 
 const Projects = () => {
 
@@ -12,6 +13,7 @@ const Projects = () => {
       <Profile></Profile>
       <Linkedin></Linkedin>
       <Excelsior></Excelsior>
+      {/* <NewExcelsior></NewExcelsior> */}
       <IEEE></IEEE>
     </div>
   );

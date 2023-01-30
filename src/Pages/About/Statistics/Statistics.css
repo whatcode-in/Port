@@ -1,0 +1,17 @@
+.statistics-wrapper {
+    width: 93%;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to bottom, #0587F7 , #8247E5);
+    padding: 3px;
+    border-radius: 50px;
+    display: flex;
+  }
+
+.statistics-card{
+    
+    color: red;
+    border-radius: 50px;
+    background: #F5F5F7;
+    /* background: white; */
+}
