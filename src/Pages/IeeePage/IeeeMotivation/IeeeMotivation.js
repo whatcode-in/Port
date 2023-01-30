@@ -1,5 +1,5 @@
 import React from "react";
-import tab from "../../../Assets/ieee/fullTab.png";
+import tab from "../../../Assets/ieee/ipad_ieee.png";
 
 const IeeeMotivation = () => {
   return (
