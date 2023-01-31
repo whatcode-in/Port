@@ -7,6 +7,7 @@ import objectArrow from "../../../Assets/excelsior/objective_arrow.png";
 import highVoltage from "../../../Assets/excelsior/high_voltage.png";
 import checkMark from "../../../Assets/excelsior/checkmark_button.png";
 import target from "../../../Assets/excelsior/objective_img.png";
+import mobilePodcast from "../../../Assets/excelsior/mobile_podcast.png";
 
 const ExcelsiorDetails = () => {
 
@@ -17,8 +18,12 @@ const ExcelsiorDetails = () => {
         <span className=" details-subtitle-gradient-1 text-transparent bg-clip-tex">and Outcome</span>
       </h1>
 
+      <div className="mt-24 mobile-podcast-container">
+          <img src={mobilePodcast}/>
+      </div>
 
-      <div className="flex justify-center motivation-objective-outcome-container mt-24">
+
+      {/* <div className="flex justify-center motivation-objective-outcome-container mt-24">
 
         <div className="motivation-objective-div">
           
@@ -91,29 +96,8 @@ const ExcelsiorDetails = () => {
           </div>
 
           </div>
-{/* 
-          <div className="outcomes-div mt-32">
-                <div className="text-2xl font-bold text-[#ffffff] lg:text-4xl md:text-2xl flex">Outcomes 
-                <img src={checkMark}/>
-                  
-
-                  Networked & interacted with <br></br>
-                  over a hundred Product <br></br>
-                  Managers, Designers & <br></br>
-                  Marketers from Web2 & Web3.
-
-                  <br></br><br></br>
-
-                  Understood the importance of<br></br>
-                  being entrepreneurial, <br></br>
-                  developed<br></br>
-                  a Product Mindset, & a unique<br></br>
-                  brand across platforms.
-            </div>
-
-
-          </div> */}
-      </div>
+       
+      </div> */}
 
     </div>
   );

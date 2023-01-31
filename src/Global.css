@@ -4,6 +4,7 @@
   font-family: "SF Pro Display", sans-serif;
 }
 
+
 html {
   overflow-x: hidden;
 }
@@ -16,6 +17,8 @@ html {
 .art-line-height {
   line-height: 40px;
 }
+
+
 
 @media (max-width: 1536px) {
   .standard-heading-line-heights {
@@ -93,8 +96,16 @@ html {
   .linkedin-heading-div,
   .motivtaion-div,
   .linkedin-text-div,
-  .podcast-heading-div {
+  .podcast-heading-div{
     padding-left: 2.5rem;
+  }
+
+  .podcast-sub-div-container{
+    padding-left: 1.5rem;
+  }
+
+  .podcast-sub-div{
+    padding-left: 1rem;
   }
   .linkedin-text-div-1 {
     margin-left: 2.2rem;
@@ -110,8 +121,13 @@ html {
   .linkedin-heading-div,
   .motivtaion-div,
   .linkedin-text-div,
-  .podcast-heading-div {
+  .podcast-heading-div
+   {
     padding-left: 1.8rem;
+  }
+
+  .podcast-sub-div{
+    padding-left: 0.6rem;
   }
   .linkedin-text-div-1 {
     margin-left: 1.6rem;
@@ -119,6 +135,7 @@ html {
   .ieee-banner-flex-box {
     gap: 2.5rem;
   }
+  
 }
 
 @media (max-width: 360px) {
@@ -130,8 +147,12 @@ html {
   .linkedin-heading-div,
   .motivtaion-div,
   .linkedin-text-div,
-  .podcast-heading-div {
+  .podcast-heading-div,
+  .podcast-sub-div {
     padding-left: 1.4rem;
+  }
+  .podcast-sub-div-container{
+    padding-left: 1rem;
   }
   .linkedin-text-div-1 {
     margin-left: 1.2rem;
