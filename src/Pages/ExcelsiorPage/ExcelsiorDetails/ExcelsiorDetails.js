@@ -7,20 +7,21 @@ import objectArrow from "../../../Assets/excelsior/objective_arrow.png";
 import highVoltage from "../../../Assets/excelsior/high_voltage.png";
 import checkMark from "../../../Assets/excelsior/checkmark_button.png";
 import target from "../../../Assets/excelsior/objective_img.png";
-import mobilePodcast from "../../../Assets/excelsior/mobile_podcast.png";
+import mobile from "../../../Assets/excelsior/Motivation.png";
 
 const ExcelsiorDetails = () => {
 
   return (
-    <div className="mt-20">
+    <div className="mt-24">
       <h1 className="details-subtitle-gradient text-transparent bg-clip-text lg:text-7xl md:text-5xl text-2xl font-bold text-center">
         Motivation, Objective <br />
         <span className=" details-subtitle-gradient-1 text-transparent bg-clip-tex">and Outcome</span>
       </h1>
 
       <div className="mt-24 mobile-podcast-container">
-          <img src={mobilePodcast}/>
+          <img src={mobile}/>
       </div>
+
 
 
       {/* <div className="flex justify-center motivation-objective-outcome-container mt-24">
