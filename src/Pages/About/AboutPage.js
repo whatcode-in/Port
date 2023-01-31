@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect}from "react";
 import AboutMe from "./AboutMe/AboutMe";
 import CareerHilights from "./CareerHilights/CareerHilights";
 import Extracurriculars from "./Extracurriculars/Extracurriculars";
@@ -9,6 +9,9 @@ import Networking from "./Networking";
 import Volunteering from "./Volunteering"
 
 const AboutPage = () => {
+  useEffect(()=>{
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+},[])
   return (
     <div className=" bg-white">
       <AboutMe></AboutMe>

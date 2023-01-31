@@ -23,7 +23,7 @@ const Navbar = () => {
       className={
         color
           ? "navbar glass-effect fixed z-50 top-0 left-0 duration-1000 lg:px-12"
-          : "navbar fixed z-10 duration-1000 top-0 left-0"
+          : "navbar fixed z-30 duration-1000 top-0 left-0"
       }
     >
       <div className="flex-1">
@@ -31,7 +31,7 @@ const Navbar = () => {
           O-K
         </NavLink>
       </div>
-      <div className="flex-none">
+      <div className="flex-none ">
         <ul className="menu menu-horizontal  font-bold">
 
           <li><NavLink to={""}>Projects   <div className="dropdown-icon-container"><img src={dropDownIcon} /></div></NavLink>
