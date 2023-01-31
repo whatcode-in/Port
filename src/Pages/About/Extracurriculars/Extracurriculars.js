@@ -41,7 +41,7 @@ const Extracurriculars = () => {
           <p className="text-black text-sm md:text lg:text-3xl" style={{color: "rgba(0, 0, 0, 0.6)",fontWeight: "600"}}>
           Led the IEEE Student Chapter, & managed other clubs in the design & <br></br>marketing domains.
           <br></br> <br></br>
-          Connected the placement cell to <span className="text-[#0587F7]">recruiters & hiring managers</span> from Fortune 500 companies.
+          Connected the placement cell to <span className="text-[#0587F7]">recruiters & hiring managers</span> from <br></br>Fortune 500 companies.
           </p>
           <br></br>
           <br></br>

@@ -15,6 +15,11 @@
     justify-content: center;
 }
 
+.mobile-podcast-container img{
+    width: 68%;
+}
+
+
  @media (max-width: 768px) { 
     .mobile-podcast-container{
         margin-left: 3rem;

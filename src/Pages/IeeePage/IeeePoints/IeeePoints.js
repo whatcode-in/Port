@@ -19,8 +19,8 @@ const IeeePoints = () => {
           <h1 className="text-2xl font-bold text-[#573EF3] lg:text-4xl md:text-2xl pt-12 pb-16">
             Motivation
           </h1>
-          <p className="lg:px-28 md:px-28 px-20 pb-20 text-[14px] lg:text-2xl md:text-xl" style={whiteShade}>
-            To avoid spread of COVID contagion through at the time of <span className="text-white">checking
+          <p className="lg:px-16 pt md:px-28 px-20 pb-20 text-[14px] lg:text-2xl md:text-xl motivation-div-iee" style={whiteShade}>
+            To avoid spread of COVID contagion <br></br> through at the<br></br> time of <span className="text-white">checking<br></br>
             SpO2 and temperature levels.</span>
           </p>
         </div>
@@ -31,8 +31,8 @@ const IeeePoints = () => {
           <h1 className="text-2xl font-bold text-[#1A8E3F] lg:text-4xl md:text-2xl pt-12 pb-16">
             Objective
           </h1>
-          <p className="lg:px-28 md:px-28 px-20 pb-20 text-[14px] lg:text-2xl md:text-xl" style={whiteShade}>
-            To build model of quick <span className="text-white">cost -effective</span> SpO2 & temperature
+          <p className="lg:px-16 md:px-28 px-20 pb-20 text-[14px] lg:text-2xl md:text-xl" style={whiteShade}>
+            To build model of <br></br> quick <span className="text-white">cost -effective</span> SpO2 & temperature<br></br>
             self-check system
           </p>
         </div>
@@ -44,9 +44,9 @@ const IeeePoints = () => {
           <h1 className="text-2xl font-bold text-[#027FFF] lg:text-4xl md:text-2xl pt-12 pb-16">
             Outcome
           </h1>
-          <p className="lg:px-28 md:px-28 px-20 pb-20 text-[14px] lg:text-2xl md:text-xl" style={whiteShade}>
-            Effectively built an <span className="text-white">efficient</span> working Arduino based blood oxygen
-            and SpO2 checking <br />
+          <p className="lg:px-16 md:px-28 px-20 pb-20 text-[14px] lg:text-2xl md:text-xl" style={whiteShade}>
+            Effectively built an <span className="text-white">efficient </span> working<br></br> Arduino based blood oxygen
+            and SpO2 checking
              model.
           </p>
         </div>

@@ -26,7 +26,7 @@ const Footer = () => {
         <a
           target="_blank"
           href="https://twitter.com/omkar_kapade11"
-          className="flex items-center gap-2 border-4 rounded-[50px] border-[#007AF6] py-2 px-2 justify-center "
+          className="flex items-center gap-2 border-4 rounded-[50px] border-[#007AF6] py-2 px-2 justify-center ml-[-7rem] "
         >
           <img src={twitter} alt="" />
           <p className="hidden lg:flex md:flex">Twitter(omkar_kapade11)</p>
