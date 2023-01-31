@@ -9,7 +9,7 @@ const Projects = () => {
 
 
   return (
-    <div>
+    <div style={{overflow:"hidden"}}>
       <Profile></Profile>
       <Linkedin></Linkedin>
       <Excelsior></Excelsior>

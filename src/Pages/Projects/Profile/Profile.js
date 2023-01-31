@@ -12,12 +12,12 @@ const Profile = () => {
       </div>
       <div className="flex">
         <div>
-          <h1 className=" relative text-[5.5rem] md:text-[13.7rem] lg:text-[20.5rem] font-bold bg-gradient-to-br from-[#FE420B] to-[#573EF3] text-transparent bg-clip-text z-10">
+          <h1 className=" relative text-[5.4rem] md:text-[13.7rem] lg:text-[20.5rem] font-bold bg-gradient-to-br from-[#FE420B] to-[#573EF3] text-transparent bg-clip-text ">
             Omkar
           </h1>
         </div>
         <img
-          className=" relative bottom-7 lg:-bottom-4 md:bottom-16 right-8 lg:right-12 md:right-10 w-36 md:w-[50rem] lg:w-full h-full "
+          className=" relative bottom-7 lg:-bottom-4 md:bottom-16 right-8 lg:right-12 md:right-10 w-24 md:w-[50rem] lg:w-full h-full "
           src={img}
           alt=""
         />

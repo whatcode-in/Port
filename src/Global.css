@@ -16,6 +16,8 @@ html{
     line-height: 40px;
 }
 
+
+
 @media (max-width: 1536px) { 
     .standard-heading-line-heights{
         line-height: 120px;
