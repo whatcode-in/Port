@@ -9,9 +9,19 @@
   }
 
 .statistics-card{
-    
     color: red;
     border-radius: 50px;
     background: #F5F5F7;
-    /* background: white; */
+}
+
+@media (max-width: 390px){
+  .statistics-wrapper{
+    width: 120% !important;
+  }
+}
+
+@media (max-width: 360px){
+  .statistics-wrapper{
+    width: 140% !important;
+  }
 }

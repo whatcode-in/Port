@@ -8,11 +8,30 @@
     background-clip: text;
 }
 
-
-.motivation-objective-outcome-container{
-    border: 1px solid red;
+.mobile-podcast-container{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
+ @media (max-width: 768px) { 
+    .mobile-podcast-container{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+  }
+
+   
+ @media (max-width: 400px) { 
+    .mobile-podcast-container{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+  }
+
+
+/* 
 .motivation-objective-div{
     display: flex;
     flex-direction: column;
@@ -24,14 +43,11 @@
     display: flex;
     flex-direction: column;
 
-}
-
-/* .motivation-div div,.objective-div div,.outcomes-div div{
-    display: flex;
 } */
 
-.motivation-div div img,.objective-div div img,.outcomes-div div img {
-    /* border: 1px solid green; */
+
+
+/* .motivation-div div img,.objective-div div img,.outcomes-div div img {
     width: 13%;
     margin-left: 0.5rem;
 }
@@ -42,11 +58,11 @@
 
 .outcomes-div div img{
     height: 80%;
-}
+} */
 
 
 
-
+/* 
 .phone-image{
     border: 2px solid red; 
 }
@@ -62,49 +78,6 @@
         width: 100%;
     }
    
- }
-
-/* @media (max-width: 1536px) { 
-    .phone-image{
-        border: 2px solid red; 
-     
-    }
-   
- }
-
- @media (max-width: 1280px) { 
-    .phone-image{
-        border: 2px solid red; 
-        
-    }
- }
-
-
-@media (max-width: 700px) { 
-    .phone-image{
-        border: 2px solid red; 
-        width: 40%;
-    }
- }
-
-@media (max-width: 640px) { 
-    .phone-image{
-        border: 2px solid red; 
-        width: 45%;
-    }
- }
-
- @media (max-width: 500px){
-    .phone-image{
-        border: 2px solid red; 
-        width: 50%;
-    }
- }
- @media (max-width: 450px){
-    .phone-image{
-        border: 2px solid red; 
-        width: 55%;
-    }
  } */
 
 
