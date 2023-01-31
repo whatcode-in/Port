@@ -4,6 +4,7 @@ import img2 from "../../../Assets/linkedin/image3.png";
 import img3 from "../../../Assets/linkedin/image1.png";
 import { Link } from "react-router-dom";
 import reveal from "../../../ScrollAnimation"
+import underline from '../../../Assets/profile/Underline 2.png'
 
 const Linkedin = () => {
 
@@ -21,6 +22,7 @@ const Linkedin = () => {
         <span>
           {" "}
           Redesign{" "}
+          <img class="mt-1 md:w-36 lg:w-auto md:ml-44 lg:ml-64" src={underline}></img>
           {/* <hr className="w-64 mt-4 ml-[10%] border-[#23D65C] border-2" /> */}
         </span>
       </h1>

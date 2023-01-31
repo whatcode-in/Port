@@ -4,6 +4,9 @@
   font-family: "SF Pro Display", sans-serif;
 }
 
+#link-text{
+  color:rgba(255, 255, 255, 0.6) !important;
+}
 
 html {
   overflow-x: hidden;
@@ -79,6 +82,7 @@ html {
   }
   .linkedin-text-div-2 {
     margin-right: 1.2rem;
+    
   }
 }
 
@@ -110,6 +114,14 @@ html {
   .linkedin-text-div-1 {
     margin-left: 2.2rem;
   }
+}
+
+.gradient{
+  background:linear-gradient(96.49deg, #FE420B 2%, #573EF3 99.07%);
+  -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
 
 @media (max-width: 410px) {

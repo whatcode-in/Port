@@ -23,15 +23,15 @@ const LinkedinBanner = () => {
 
       <div className="mt-12 pl-24 motivtaion-div">
         <span className="py-3 px-5 border-2 lg:text-3xl md:text-xl text-sm border-[#DAED00] text-[#DAED00] rounded-full">
-          motivation
+          MOTIVATION
         </span>
       </div>
     
       <div className="flex items-center">
 
         <div className="flex items-center">
-          <div className="linkedin-text-div-1 w-[80%] mt-8 ml-24 border-4 border-blue-600 rounded-3xl px-5 py-3 bg-black  ">
-            <span className="text-white font-medium lg:text-4xl md:text-3xl text-sm relative z-10">
+          <div className="linkedin-text-div-1 w-[80%] mt-8 ml-24 border-4 border-blue-600 rounded-3xl px-12 py-10 bg-black  ">
+            <span className="text-white font-bold lg:text-2xl md:text-xl text-sm relative z-10">
               While LinkedIn is a great tool <br />
               for job hunting & networking, <br />
               there are a plethora of things <br />
@@ -48,8 +48,8 @@ const LinkedinBanner = () => {
         </div>
 
         <div className="flex-1 mt-12 linkedin-text-div-2">
-          <span className="lg:text-3xl md:text-2xl text-sm text-white">
-            The objective is to propel existing & new <br />
+          <span id="link-text" className="lg:text-3xl md:text-2xl text-sm ">
+            The <span className="text-white">objective</span> is to propel existing & new <br />
             (normal and premium) users to increase <br />
             their engagement on the platform.
           </span>

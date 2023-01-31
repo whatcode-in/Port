@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="flex-none">
         <ul className="menu menu-horizontal  font-bold">
 
-          <li><NavLink to={"/projects"}>Projects   <div className="dropdown-icon-container"><img src={dropDownIcon} /></div></NavLink>
+          <li><NavLink to={""}>Projects   <div className="dropdown-icon-container"><img src={dropDownIcon} /></div></NavLink>
             <ul className="bg-white text-black">
               <li><NavLink to={"/projects/linkedIn"}>Linkedin Redesign</NavLink></li>
               <li><NavLink to={"/projects/excelsior"}>Podcast</NavLink></li>
