@@ -5,6 +5,10 @@ import revampBlockImage1 from "../../../Assets/linkedin/revamp_block1.png"
 import revampBlockImage2 from "../../../Assets/linkedin/rewamp_block2.png"
 import revampBlockImage3 from "../../../Assets/linkedin/revamp_block3.png"
 
+import fullRevamp1 from "../../../Assets/linkedin/revamp1.png"
+import fullRevamp2 from "../../../Assets/linkedin/revamp2.png"
+import fullRevamp3 from "../../../Assets/linkedin/revamp3.png"
+
 const NewRevamp = () => {
   return (
     <div className="mt-32 w-[100%] mx-auto flex justify-center flex-col">
@@ -22,16 +26,16 @@ const NewRevamp = () => {
       </div>
 
 
-      <div className="flex justify-start align-middle mt-32 revamp-alphabet-container">
+      {/* <div className="flex justify-start align-middle mt-32 revamp-alphabet-container">
         <div className="alphabet-ellipse">A</div>
 
         <div className="lg:text-2xl md:text-xl text-[15px] w-[40%] new-rewamp-description">
             A <span className="text-white">revamped</span> look to the homefeed where <span className="text-white">stats</span>, & <span className="text-white">comments</span>, etc. can be viewed right on the side.
         </div>
 
-      </div>
+      </div> */}
 
-      <div className="new-rewamp-block-container mt-5 flex">
+      {/* <div className="new-rewamp-block-container mt-5 flex">
 
         <div className="new-rewamp-image-container">
             <img src={revampBlockImage1}/>
@@ -53,48 +57,42 @@ const NewRevamp = () => {
 
         </div>
 
-      </div>
+      </div> */}
 
-      <div className="lg:text-2xl md:text-xl text-[15px] xl:w-[45%] ml-40">
+      {/* <div className="lg:text-2xl md:text-xl text-[15px] xl:w-[45%] ml-40">
       <span className="text-white">Messages</span> can be<br></br> seen at all times.
-    </div>
+    </div> */}
 
 
-    <div className="flex justify-start align-middle mt-32 revamp-alphabet-container">
-        {/* <div className="alphabet-ellipse">B</div> */}
-
+    {/* <div className="flex justify-start align-middle mt-32 revamp-alphabet-container">
         <div className="lg:text-2xl md:text-xl text-[15px] w-[40%] new-rewamp-description">
             A <span className="text-white"> mordenized </span>job protal 
         </div>
 
-      </div>
+      </div> */}
 
 
-      
-      <div className="new-rewamp-block-container mt-10 flex">
+      {/* <div className="new-rewamp-block-container mt-10 flex">
         <div className="new-rewamp-image-container-1">
             <img src={revampBlockImage2}/>
         </div>
 
-            <div className="lg:text-2xl md:text-xl text-[15px] xl:w-[45%] md:w-[60%]" id="block-2">
+            <div className="lg:text-2xl md:text-xl text-[15px] xl:w-[45%] md:w-[60%] comprehensive-text">
             <span className="text-white">Comprehensive and<br></br> succinct</span> information<br></br> regarding the skillset<br></br> needed for the role in<br></br> question.
             </div>
-      </div>
+      </div> */}
 
 
-
-
-
-      <div className="flex justify-end align-middle mt-32 revamp-alphabet-container" id="block-3-text">
+      {/* <div className="flex justify-end align-middle mt-32 revamp-alphabet-container" id="block-3-text">
         <div className="alphabet-ellipse">C</div>
 
         <div className="lg:text-2xl md:text-xl text-[15px] w-[50%] new-rewamp-description-3">
         The connections page is <span className="text-white">glamorized</span> a bit to<br></br> make it a bit more visually appealing.
         </div>
 
-      </div>
+      </div> */}
 
-      <div className="new-rewamp-block-container mt-5 flex">
+      {/* <div className="new-rewamp-block-container mt-5 flex">
 
 
         <div className="new-rewamp-block-text-container">
@@ -114,6 +112,14 @@ const NewRevamp = () => {
             <img src={revampBlockImage3}/>
         </div>
 
+      </div> */}
+
+
+
+      <div className="mt-24 revamp-main-container">
+        <img className="mt-12" src={fullRevamp1}/>
+        <img className="mt-20"  src={fullRevamp2}/>
+        <img  className="mt-20" src={fullRevamp3}/>
       </div>
 
     

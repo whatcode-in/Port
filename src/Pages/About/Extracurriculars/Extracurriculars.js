@@ -14,8 +14,8 @@ const Extracurriculars = () => {
       <h1 className="lg:text-8xl md:text-6xl text-4xl mb-10 bg-gradient-to-br from-[#0587F7] to-[#573EF3] text-transparent bg-clip-text font-bold text-center">
         Extracurriculars
       </h1>
-      <div className=" w-[90%] mx-auto shadow-2xl px-24 rounded-3xl">
-        <div className="text-[#0587F7] flex pt-11 text-sm md:text-xl lg:text-3xl justify-between mb-8">
+      <div className="w-[90%] mx-auto shadow-2xl px-24 rounded-3xl">
+        <div className="text-[#0587F7] flex pt-11 text-sm md:text-xl lg:text-3xl mb-8">
           <span>Student Chapters</span>
           <span>Aug 2019 - Nov 2022</span>
         </div>

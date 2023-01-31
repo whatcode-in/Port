@@ -1,60 +1,160 @@
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 
-*{
-    font-family: 'SF Pro Display',sans-serif;
+* {
+  font-family: "SF Pro Display", sans-serif;
 }
 
-html{
-    overflow-x: hidden;
+
+html {
+  overflow-x: hidden;
 }
 
-.standard-heading-line-heights{
+.standard-heading-line-heights {
+  line-height: 120px;
+}
+
+.sports-line-height,
+.art-line-height {
+  line-height: 40px;
+}
+
+
+
+@media (max-width: 1536px) {
+  .standard-heading-line-heights {
     line-height: 120px;
-}
-
-.sports-line-height,.art-line-height{
+  }
+  .sports-line-height,
+  .art-line-height {
     line-height: 40px;
+  }
 }
 
-@media (max-width: 1536px) { 
-    .standard-heading-line-heights{
-        line-height: 120px;
-    }
-    .sports-line-height,.art-line-height{
-        line-height: 40px;
-    }
- }
+@media (max-width: 1280px) {
+  .standard-heading-line-heights {
+    line-height: 110px;
+  }
+  .sports-line-height,
+  .art-line-height {
+    line-height: 33px;
+  }
+}
 
- @media (max-width: 1280px) { 
-    .standard-heading-line-heights{
-        line-height: 110px;
-    }
-    .sports-line-height,.art-line-height{
-        line-height: 33px;
-    }
- }
+@media (max-width: 1024px) {
+  .standard-heading-line-heights {
+    line-height: 70px;
+  }
+  .sports-line-height,
+  .art-line-height {
+    line-height: 23px;
+  }
+}
 
- @media (max-width: 1024px) { 
-    .standard-heading-line-heights{
-        line-height: 70px;
-    }.sports-line-height,.art-line-height{
-        line-height: 23px;
-    }
- }
+@media (max-width: 768px) {
+  .standard-heading-line-heights {
+    line-height: 40px;
+  }
+  .sports-line-height,
+  .art-line-height {
+    line-height: 18px;
+  }
+}
 
+@media (max-width: 640px) {
+  .standard-heading-line-heights {
+    line-height: 40px;
+  }
+  .sports-line-height,
+  .art-line-height {
+    line-height: 18px;
+  }
+}
 
-@media (max-width: 768px) { 
-    .standard-heading-line-heights{
-        line-height: 40px;
-    }.sports-line-height,.art-line-height{
-        line-height: 18px;
-    }
- }
+@media (max-width: 480px) {
+  #noice-image {
+    max-width: 170px !important;
+  }
+  #ieee-image {
+    width: 300px !important;
+  }
+  .linkedin-text-div-2 {
+    margin-right: 1.2rem;
+  }
+}
 
-@media (max-width: 640px) { 
-    .standard-heading-line-heights{
-        line-height: 40px;
-    }.sports-line-height,.art-line-height{
-        line-height: 18px;
-    }
- }
+@media (max-width: 430px) {
+  #noice-image,
+  #ieee-image,
+  #podcast-image {
+    max-width: 135px !important;
+  }
+  #ieee-image {
+    margin-left: 0;
+    width: 250px !important;
+  }
+
+  .linkedin-heading-div,
+  .motivtaion-div,
+  .linkedin-text-div,
+  .podcast-heading-div{
+    padding-left: 2.5rem;
+  }
+
+  .podcast-sub-div-container{
+    padding-left: 1.5rem;
+  }
+
+  .podcast-sub-div{
+    padding-left: 1rem;
+  }
+  .linkedin-text-div-1 {
+    margin-left: 2.2rem;
+  }
+}
+
+@media (max-width: 410px) {
+  #noice-image,
+  #ieee-image,
+  #podcast-image {
+    max-width: 135px !important;
+  }
+  .linkedin-heading-div,
+  .motivtaion-div,
+  .linkedin-text-div,
+  .podcast-heading-div
+   {
+    padding-left: 1.8rem;
+  }
+
+  .podcast-sub-div{
+    padding-left: 0.6rem;
+  }
+  .linkedin-text-div-1 {
+    margin-left: 1.6rem;
+  }
+  .ieee-banner-flex-box {
+    gap: 2.5rem;
+  }
+  
+}
+
+@media (max-width: 360px) {
+  #noice-image,
+  #ieee-image,
+  #podcast-image {
+    max-width: 120px !important;
+  }
+  .linkedin-heading-div,
+  .motivtaion-div,
+  .linkedin-text-div,
+  .podcast-heading-div,
+  .podcast-sub-div {
+    padding-left: 1.4rem;
+  }
+  .podcast-sub-div-container{
+    padding-left: 1rem;
+  }
+  .linkedin-text-div-1 {
+    margin-left: 1.2rem;
+  }
+}
